@@ -1,10 +1,8 @@
 import time
 import logging
-
+from config import TOKEN
 from aiogram import Bot, Dispatcher, executor, types
 
-
-TOKEN = "5600127998:AAFwwbMLuAV_ONYpV7lpKEJx2ZDyPNqq7oA"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot=bot)
